@@ -1,0 +1,2 @@
+# cardjitsu
+Juego distribuido
