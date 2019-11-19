@@ -1,15 +1,14 @@
 {
-  "name": "cardjitsu",
-  "version": "1.0.0",
-  "description": "Juego",
-  "main": "app.js",
+  "name": "card",
+  "description": "Simple game based on Club Penguins Card-Jitsu",
+  "author": "Tobias Loefgren",
+  "version": "0.1.0",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "keywords": [
-    "Juego",
-    "node"
-  ],
-  "author": "Milton Ocampo",
-  "license": "ISC"
+  "dependencies": {
+    "express": "~4.13.1",
+    "socket.io": "^1.4.4"
+  }
 }
