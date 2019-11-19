@@ -1,11 +1,12 @@
 {
-  "name": "card",
-  "description": "Simple game based on Club Penguins Card-Jitsu",
-  "author": "Tobias Loefgren",
+  "name": "cardjitsu",
+  "description": "u",
+  "author": "Milton Ocampo",
   "version": "0.1.0",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "dependencies": {
     "express": "~4.13.1",
