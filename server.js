@@ -1,7 +1,7 @@
 const express = require("express");
 var app = express();
 const http = require("http").Server(app);
-const io = require("./libs/logic").listen(http);
+const io = require("./logic").listen(http);
 
 app.set("port", (process.env.PORT || 3001));
 app.use(express.static("public"));  
